@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <Button 
+        android:id="@+id/call"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="160dp"
+        android:drawableLeft="@drawable/nav_call"
+        android:drawablePadding="20dp"
+        android:paddingLeft="20dp"
+        android:text="Call"
+        android:gravity="center_vertical"
+        android:background="@null"/>
+    
+    <Button 
+        android:id="@+id/friends"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/nav_friends"
+        android:drawablePadding="20dp"
+        android:text="Friends"
+        android:gravity="center_vertical"
+        android:paddingLeft="20dp"
+        android:background="@null"/>
+
+    <Button 
+        android:id="@+id/location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/nav_location"
+        android:drawablePadding="20dp"
+        android:text="Location"
+        android:gravity="center_vertical"
+        android:paddingLeft="20dp"
+        android:background="@null"/>
+    
+    <Button 
+        android:id="@+id/mail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/nav_mail"
+        android:drawablePadding="20dp"
+        android:text="Mail"
+        android:gravity="center_vertical"
+        android:paddingLeft="20dp"
+        android:background="@null"/>
+    
+    <Button 
+        android:id="@+id/tasks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/nav_task"
+        android:drawablePadding="20dp"
+        android:text="Tasks"
+        android:gravity="center_vertical"
+        android:paddingLeft="20dp"
+        android:background="@null"/>
+
+</LinearLayout>
